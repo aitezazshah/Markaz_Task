@@ -51,6 +51,12 @@
     margin-top: 10px;
     
 }
+.book:hover{
+    background-color: white;
+    color: #17cf97;
+    border: 1px solid #17cf97;
+    transition: 0.3 ease-in-out;
+}
 
 .services{
     display: flex;
@@ -74,7 +80,7 @@
 .text{
     font-size: 16px;
     color: black;
-    font-weight: 500;
+    font-weight: 400;
     margin-bottom: 10px;
     display: flex;
     text-align: justify;

@@ -1,6 +1,7 @@
 import React from 'react'
 import NavBar from './NavBar'
 import '../styles/HomeScreen.css'
+import FooterSection from './FooterSection';
 
 function HomeScreen() {
   return (
@@ -34,6 +35,7 @@ function HomeScreen() {
           <img className="location_image" src={require("../location.jpg")} />
         </div>
       </div>
+      <FooterSection/>
     </div>
   );
 }

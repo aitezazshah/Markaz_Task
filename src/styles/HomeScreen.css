@@ -70,6 +70,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
 }
 .heading{
     font-size: 30px;
@@ -84,7 +85,7 @@
     margin-bottom: 10px;
     display: flex;
     text-align: justify;
-    padding-left: 10px;
+    padding-left: 20px;
 }
 .image{
 width: 60%;

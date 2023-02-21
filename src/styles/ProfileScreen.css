@@ -1,0 +1,78 @@
+.profile_section{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.image_section{
+    width: 100%;
+    background-color: #1b2430;
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.person_image{
+    width: 130px;
+    height: 130px;
+    border: 1px solid #17cf97;
+    border-radius: 100%;
+    background-image: url('../../public/assets/profile.jpg');
+    background-position: center;
+    background-size: cover;
+    margin: 15px;
+}
+.edit_btn{
+    width: 100px;
+        height: 40px;
+        font-size: 16px;
+        font-weight: 500;
+        color: white;
+        background-color: #17cf97;
+        outline: none;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        margin: 15px;
+}
+.welcome_msg{
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+}
+
+.wallet{
+    color: #17cf97;
+    font-size: 20px;
+}
+.price{
+    color: white;
+    font-size: 20px;
+}
+
+.stats{
+    margin-top: 20px;
+        font-size: 22px;
+}
+
+.stats_heading{
+    color: #17cf97;
+    font-weight: 600;
+}
+
+@media screen and (max-width:768px){
+    .image_section{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+    }
+}

@@ -89,10 +89,7 @@ function NavBar() {
           </svg>
         </a>
         <div className="Navbar-links">
-          <ul
-            id="Navbar"
-            className={showMenu ? "#Navbar active" : "#Navbar"}
-          >
+          <ul id="Navbar" className={showMenu ? "#Navbar active" : "#Navbar"}>
             <li>
               <Link to="home">Home</Link>
             </li>
@@ -102,7 +99,9 @@ function NavBar() {
             <li>
               <Link to="contact">Contact Us</Link>
             </li>
-            <button className="login">Login</button>
+            <Link to="login">
+              <button className="login">Login</button>
+            </Link>
           </ul>
         </div>
 

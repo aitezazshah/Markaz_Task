@@ -4,6 +4,7 @@ import '../styles/NavBar.css'
 
 function NavBar() {
     const [showMenu, setShowMenu] = useState(false);
+    
 
     function toggleMenu() {
       setShowMenu(!showMenu);
@@ -91,16 +92,19 @@ function NavBar() {
         <div className="Navbar-links">
           <ul id="Navbar" className={showMenu ? "#Navbar active" : "#Navbar"}>
             <li>
-              <Link to="home">Home</Link>
+              <Link to="/home">Home</Link>
             </li>
             <li>
-              <Link to="about">About Us</Link>
+              <Link to="">About Us</Link>
             </li>
             <li>
-              <Link to="contact">Contact Us</Link>
+              <Link to="/profile">Profile</Link>
             </li>
-            <Link to="login">
-              <button className="login">Login</button>
+            <li>
+              <Link to="">Contact Us</Link>
+            </li>
+            <Link to="/">
+              <button className="login">Logout</button>
             </Link>
           </ul>
         </div>
